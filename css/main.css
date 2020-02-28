@@ -645,6 +645,20 @@ label > input[type="checkbox"], label > input[type="radio"] {
  *
  * ------------------------------------------------------------------- 
  */
+.resumebtn{
+	background-color: #FF0077;
+	color: white !important;
+	border-radius: 25px;
+	border: 1px solid #FF0077;
+}
+
+.resumebtn:hover{
+	background-color: transparent!important ;
+	color: #FF0077 !important;
+	border-radius: 25px;
+	border: 1px solid #FF0077;
+} 
+
 .button,
 a.button,
 button,
@@ -2111,7 +2125,7 @@ header .logo a {
 	width: 100%;
 	height: 100%;
 	background: #151515;
-	opacity: .7;
+	opacity: .9;
 }
 
 #services .section-intro {
