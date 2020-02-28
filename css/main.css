@@ -646,17 +646,17 @@ label > input[type="checkbox"], label > input[type="radio"] {
  * ------------------------------------------------------------------- 
  */
 .resumebtn{
-	background-color: #FF0077;
+	background-color: #FF0077 !important;
 	color: white !important;
-	border-radius: 25px;
-	border: 1px solid #FF0077;
+	border-radius: 25px !important;
+	border: 1px solid #FF0077 !important;
 }
 
 .resumebtn:hover{
 	background-color: transparent!important ;
 	color: #FF0077 !important;
-	border-radius: 25px;
-	border: 1px solid #FF0077;
+	border-radius: 25px !important;
+	border: 1px solid #FF0077 !important;
 } 
 
 .button,
