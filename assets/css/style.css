@@ -31,6 +31,37 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   position: absolute;
 }
+
+.btn-cv{
+  border: solid #149DDD 2px;
+  border-top-left-radius: 15px;
+  padding: 7px 15px;
+  color: #149DDD;
+  transition: ease-in-out .5s;
+}
+
+.btn-cv:hover{
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 15px;
+  color: white;
+}
+
+
+.btn-hire{
+  border: solid #149DDD 2px;
+  color: #149ddd;
+  border-top-right-radius: 15px;
+  padding: 7px 15px;
+  transition: ease-in-out .5s;
+  margin-left: -4px;
+}
+
+.btn-hire:hover{
+  background-color: transparent;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 15px;
+  color: white;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
